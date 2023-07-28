@@ -1,0 +1,37 @@
+Tiya jain
+entc b2 
+22070123126
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+
+    char op;
+    float n1, n2;
+      
+    cout << "Enter an operator(+ - * /): ";
+    cin >> op;
+    cout << "Enter two numbers ";
+    cin >> n1 >> n2;
+  
+    switch(op) 
+    {
+        case 1: 
+                cout << n1 << " + " << n2 << " = " << n1+n2;
+                break;
+        case 2:
+                cout << n1 << " - " << n2 << " = " << n1+n2;
+                break;
+        case 3:
+                cout << n1 << " * " << n2 << " = " << n1*n2;
+                break;
+        case 4:
+                cout << n1 << " / " << n2 << " = " << n1/n2;
+                break;
+        default: 
+                printf("ERROR");
+    }
+      
+    return 0;
